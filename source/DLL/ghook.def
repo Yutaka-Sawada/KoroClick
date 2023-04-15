@@ -1,0 +1,10 @@
+LIBRARY ghook
+
+SECTIONS
+    MY_DATA READ WRITE SHARED
+
+EXPORTS
+    MyHookProc @1
+    MySetHook @2
+    MyEndHook @3
+
